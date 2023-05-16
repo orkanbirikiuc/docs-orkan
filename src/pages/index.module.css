@@ -19,5 +19,20 @@
 .buttons {
   display: flex;
   align-items: center;
+  margin: auto;
+  padding: 0em 10em 1em 10em;
   justify-content: center;
+}
+
+.header {
+  padding: 9em 0 5em 0;
+  text-align: center;
+}
+
+.links {
+  width: 100%;
+}
+
+.buttonWithMargin {
+  margin: 0 0.5em;
 }
