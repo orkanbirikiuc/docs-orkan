@@ -36,6 +36,7 @@
 @media screen and (max-width: 1000px) {
   .buttons {
     flex-direction: column;
+    padding: 0em 10em 0em 10em;
   }
 
   .buttonWithMargin {

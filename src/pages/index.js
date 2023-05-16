@@ -11,34 +11,42 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      // title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <main>
         <div className={styles.header}> 
           <h1>docs.orkan</h1>
-          <p>dokümantasyon çok sıkıcı bir iş</p>
+          <p>Dokümantasyon çok sıkıcı bir iş</p>
         </div>
         <div className={styles.links}>
           <div className={styles.buttons}>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/intro">
-                elektrik-elektronik ⚡
+                to="/docs/ee">
+                Elektrik-Elektronik ⚡
               </Link>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/intro">
-                haberleşme 📡
+                to="/docs/haberlesme">
+                Haberleşme 📡
               </Link>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/intro">
-                karışık 🤯
+                to="/docs/agsistem">
+                Ağ ve Sistem 🌐
               </Link>
-              <Link
+              
+            </div>
+            <div className={styles.buttons}>
+            <Link
+                className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
+                to="/docs/karisik">
+                Karışık 🤯
+              </Link>
+            <Link
                 className={`button button--primary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/intro">
-                ders notları 📖
+                to="/docs/category/notlar">
+                Notlar 📖
               </Link>
             </div>
           </div>
