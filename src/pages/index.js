@@ -22,17 +22,17 @@ export default function Home() {
           <div className={styles.buttons}>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/ee">
+                to="/docs/category/ee">
                 Elektrik-Elektronik ⚡
               </Link>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/haberlesme">
+                to="/docs/category/haberlesme">
                 Haberleşme 📡
               </Link>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/agsistem">
+                to="/docs/category/agsistem">
                 Ağ ve Sistem 🌐
               </Link>
               
@@ -40,7 +40,7 @@ export default function Home() {
             <div className={styles.buttons}>
             <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/karisik">
+                to="/docs/category/karisik">
                 Karışık 🤯
               </Link>
             <Link
