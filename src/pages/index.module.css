@@ -19,7 +19,6 @@
 .buttons {
   display: flex;
   align-items: center;
-  margin: auto;
   padding: 0em 10em 1em 10em;
   justify-content: center;
 }
@@ -29,10 +28,18 @@
   text-align: center;
 }
 
-.links {
-  width: 100%;
-}
 
 .buttonWithMargin {
   margin: 0 0.5em;
+}
+
+@media screen and (max-width: 1000px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttonWithMargin {
+    margin: 0.5em 0;
+    width: 17em;
+  }
 }
