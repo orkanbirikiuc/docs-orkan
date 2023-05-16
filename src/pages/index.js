@@ -22,7 +22,7 @@ export default function Home() {
           <div className={styles.buttons}>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/category/ee">
+                to="/docs/category/elektrik-elektronik">
                 Elektrik-Elektronik ⚡
               </Link>
               <Link
