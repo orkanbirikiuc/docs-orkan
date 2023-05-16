@@ -32,7 +32,7 @@ export default function Home() {
               </Link>
               <Link
                 className={`button button--secondary button--lg ${styles.buttonWithMargin}`}
-                to="/docs/category/agsistem">
+                to="/docs/category/ag-sistem">
                 Ağ ve Sistem 🌐
               </Link>
               
